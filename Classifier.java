@@ -110,7 +110,7 @@ public abstract class Classifier {
     }
   }
 
-  /** An immutable result returned by a Classifier describing what was recognized. */
+  // default Recognition constructor
   public static class Recognition {
     //id of image used for the recognition
     private final String id;
